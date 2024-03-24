@@ -10,7 +10,7 @@
   
 在网络上搜集了2024年2月北京每日气温，绘制了每日最高、最低气温的柱状图、折线图；还搜集了2023年31省的GDP数据，绘制了GDP生产总值、GDP同比增速和预期目标增速的组合图表。  
   
-[查看详情]([file:///C:/Users/PC/Desktop/%E5%A4%A7%E4%B8%89%E4%B8%8B/%E7%BC%96%E7%A8%8B/%E4%BD%9C%E4%B8%9A1/%E7%BB%84%E5%90%88%E5%9B%BE%E8%A1%A8.html](https://rockchifeet.github.io/%E7%BB%84%E5%90%88%E5%9B%BE%E8%A1%A8.html))  
+[查看详情](file:///C:/Users/PC/Desktop/%E5%A4%A7%E4%B8%89%E4%B8%8B/%E7%BC%96%E7%A8%8B/%E4%BD%9C%E4%B8%9A1/%E7%BB%84%E5%90%88%E5%9B%BE%E8%A1%A8.html](https://rockchifeet.github.io/%E7%BB%84%E5%90%88%E5%9B%BE%E8%A1%A8.html))  
   
 ## 3. 词云  
   
