@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.centered
+			{
+				text-align: center;
+			}
+			.highlight_text
+			{
+				color: red;
+				font-style:italic;
+			}	
+			.normal_text
+			{
+				color: black;
+				text-align: center;
+			}
+			.deleted_text
+			{
+				color: grey;
+				text-align: center;
+				text-decoration:line-through;
+			}
+			p
+			{
+				text-align:left;
+			}
+		</style>
+		
+		<title>selector</title>
+	</head>
+	
+	<body class="centered">
+		<h1>Welcome</h1>
+		<p class="normal_text">欢迎使用搜猫搜索，请输入您要查询的内容</p>
+		<form action="https://www.sogou.com/web" method="get">
+			<input type="text" name="query">
+			<input type="submit" value="搜猫搜索">
+			<!--点击“提交”按钮后，注意浏览器地址栏的变化-->
+		<p class="deleted_text">搜猫将为您跳转到搜狗搜索</p>
+		</form>
+	</body>
+</html>
+

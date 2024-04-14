@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+		<style>
+			.centered
+			{
+				text-align: center;
+			}
+			.highlight_text
+			{
+				color: red;
+				font-style:italic;
+			}	
+			.normal_text
+			{
+				color: black;
+				text-align: center;
+				font-size: 16px;
+			}
+			.deleted_text
+			{
+				color: grey;
+				text-align: center;
+				text-decoration:line-through;
+			}
+			p
+			{
+				text-align:left;
+			}
+		</style>
+		
+		<title>selector</title>
+</head>
+<body class="centered">
+    <h1>围城人物共现关系图<h1>
+	<p class="normal_text">本关系图选取了全书出现排名前20的人物，并统计了5次及以上的共现关系</p>
+	</br>
+    <div id="c7667a39c9ce469eaa95b6ca99bc68a3" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_c7667a39c9ce469eaa95b6ca99bc68a3 = echarts.init(
+            document.getElementById('c7667a39c9ce469eaa95b6ca99bc68a3'), 'white', {renderer: 'canvas'});
+        var option_c7667a39c9ce469eaa95b6ca99bc68a3 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "graph",
+            "layout": "force",
+            "symbolSize": 10,
+            "circular": {
+                "rotateLabel": false
+            },
+            "force": {
+                "repulsion": 5000,
+                "gravity": 0.2,
+                "edgeLength": [
+                    10,
+                    50
+                ],
+                "friction": 0.6,
+                "layoutAnimation": true
+            },
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "roam": true,
+            "draggable": false,
+            "focusNodeAdjacency": true,
+            "data": [
+                {
+                    "name": "\u5b59\u67d4\u5609",
+                    "fixed": false,
+                    "value": 294,
+                    "symbolSize": 14.7,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u65b9\u9e3f\u6e10",
+                    "fixed": false,
+                    "value": 255,
+                    "symbolSize": 12.75,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u674e\u6885\u4ead",
+                    "fixed": false,
+                    "value": 251,
+                    "symbolSize": 12.55,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u8d75\u8f9b\u6963",
+                    "fixed": false,
+                    "value": 244,
+                    "symbolSize": 12.2,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u5510\u6653\u8299",
+                    "fixed": false,
+                    "value": 156,
+                    "symbolSize": 7.8,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u9ad8\u677e\u5e74",
+                    "fixed": false,
+                    "value": 105,
+                    "symbolSize": 5.25,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u6c6a\u592a\u592a",
+                    "fixed": false,
+                    "value": 85,
+                    "symbolSize": 4.25,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u8001\u592a\u592a",
+                    "fixed": false,
+                    "value": 72,
+                    "symbolSize": 3.6,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u6c6a\u5904\u539a",
+                    "fixed": false,
+                    "value": 69,
+                    "symbolSize": 3.45,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u987e\u5c14\u8c26",
+                    "fixed": false,
+                    "value": 60,
+                    "symbolSize": 3.0,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u66f9\u5143\u6717",
+                    "fixed": false,
+                    "value": 43,
+                    "symbolSize": 2.15,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u963f\u4e11",
+                    "fixed": false,
+                    "value": 40,
+                    "symbolSize": 2.0,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u97e9\u5b66\u6108",
+                    "fixed": false,
+                    "value": 40,
+                    "symbolSize": 2.0,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u674e\u5988",
+                    "fixed": false,
+                    "value": 40,
+                    "symbolSize": 2.0,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u5218\u5c0f\u59d0",
+                    "fixed": false,
+                    "value": 36,
+                    "symbolSize": 1.8,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u5218\u4e1c\u65b9",
+                    "fixed": false,
+                    "value": 35,
+                    "symbolSize": 1.75,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u9646\u5b50\u6f47",
+                    "fixed": false,
+                    "value": 25,
+                    "symbolSize": 1.25,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u82cf\u6587\u7ea8",
+                    "fixed": false,
+                    "value": 23,
+                    "symbolSize": 1.15,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                },
+                {
+                    "name": "\u738b\u5148\u751f",
+                    "fixed": false,
+                    "value": 22,
+                    "symbolSize": 1.1,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {}
+                }
+            ],
+            "edgeLabel": {
+                "show": false,
+                "margin": 8
+            },
+            "edgeSymbol": [
+                null,
+                null
+            ],
+            "edgeSymbolSize": 10,
+            "links": [
+                {
+                    "source": "\u65b9\u9e3f\u6e10",
+                    "target": "\u5510\u6653\u8299",
+                    "value": 19,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u65b9\u9e3f\u6e10",
+                    "target": "\u8d75\u8f9b\u6963",
+                    "value": 24,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u65b9\u9e3f\u6e10",
+                    "target": "\u9ad8\u677e\u5e74",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u674e\u6885\u4ead",
+                    "target": "\u9ad8\u677e\u5e74",
+                    "value": 15,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u674e\u6885\u4ead",
+                    "target": "\u8d75\u8f9b\u6963",
+                    "value": 14,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u674e\u6885\u4ead",
+                    "target": "\u987e\u5c14\u8c26",
+                    "value": 20,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u674e\u6885\u4ead",
+                    "target": "\u5b59\u67d4\u5609",
+                    "value": 20,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u674e\u6885\u4ead",
+                    "target": "\u6c6a\u5904\u539a",
+                    "value": 8,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5510\u6653\u8299",
+                    "target": "\u65b9\u9e3f\u6e10",
+                    "value": 19,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u8d75\u8f9b\u6963",
+                    "target": "\u65b9\u9e3f\u6e10",
+                    "value": 24,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u8d75\u8f9b\u6963",
+                    "target": "\u5b59\u67d4\u5609",
+                    "value": 24,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u8d75\u8f9b\u6963",
+                    "target": "\u987e\u5c14\u8c26",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u8d75\u8f9b\u6963",
+                    "target": "\u674e\u6885\u4ead",
+                    "value": 14,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u8d75\u8f9b\u6963",
+                    "target": "\u9ad8\u677e\u5e74",
+                    "value": 7,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u8d75\u8f9b\u6963",
+                    "target": "\u5218\u4e1c\u65b9",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u8d75\u8f9b\u6963",
+                    "target": "\u6c6a\u592a\u592a",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u9ad8\u677e\u5e74",
+                    "target": "\u674e\u6885\u4ead",
+                    "value": 15,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u9ad8\u677e\u5e74",
+                    "target": "\u5b59\u67d4\u5609",
+                    "value": 8,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u9ad8\u677e\u5e74",
+                    "target": "\u8d75\u8f9b\u6963",
+                    "value": 7,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u9ad8\u677e\u5e74",
+                    "target": "\u65b9\u9e3f\u6e10",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5b59\u67d4\u5609",
+                    "target": "\u8d75\u8f9b\u6963",
+                    "value": 24,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5b59\u67d4\u5609",
+                    "target": "\u674e\u6885\u4ead",
+                    "value": 20,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5b59\u67d4\u5609",
+                    "target": "\u9ad8\u677e\u5e74",
+                    "value": 8,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5b59\u67d4\u5609",
+                    "target": "\u987e\u5c14\u8c26",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5b59\u67d4\u5609",
+                    "target": "\u9646\u5b50\u6f47",
+                    "value": 10,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5b59\u67d4\u5609",
+                    "target": "\u5218\u4e1c\u65b9",
+                    "value": 9,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u987e\u5c14\u8c26",
+                    "target": "\u8d75\u8f9b\u6963",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u987e\u5c14\u8c26",
+                    "target": "\u674e\u6885\u4ead",
+                    "value": 20,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u987e\u5c14\u8c26",
+                    "target": "\u5b59\u67d4\u5609",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u6c6a\u5904\u539a",
+                    "target": "\u674e\u6885\u4ead",
+                    "value": 8,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u9646\u5b50\u6f47",
+                    "target": "\u5b59\u67d4\u5609",
+                    "value": 10,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5218\u4e1c\u65b9",
+                    "target": "\u8d75\u8f9b\u6963",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5218\u4e1c\u65b9",
+                    "target": "\u5b59\u67d4\u5609",
+                    "value": 9,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u6c6a\u592a\u592a",
+                    "target": "\u8d75\u8f9b\u6963",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u6c6a\u592a\u592a",
+                    "target": "\u5218\u5c0f\u59d0",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                },
+                {
+                    "source": "\u5218\u5c0f\u59d0",
+                    "target": "\u6c6a\u592a\u592a",
+                    "value": 5,
+                    "emphasis": {},
+                    "blur": {},
+                    "select": {},
+                    "ignoreForceLayout": false
+                }
+            ]
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u5173\u7cfb\u56fe-\u56f4\u57ce\u4eba\u7269",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_c7667a39c9ce469eaa95b6ca99bc68a3.setOption(option_c7667a39c9ce469eaa95b6ca99bc68a3);
+    </script>
+</body>
+</html>
